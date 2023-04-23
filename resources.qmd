@@ -1,0 +1,58 @@
+---
+title: "Workshop resources"
+format: pdf
+---
+
+# Packages
+
+You will need the following packages:  
+- `{tidyverse}`  
+- `{lterdatasampler}`  
+- `{naniar}`  
+- `{data.table}`  
+- `{effsize}`  
+
+# Formulas to be comfortable with
+
+One-sample t-statistic:
+
+$$
+t_s = \frac{\bar{x} - \mu}{s/\sqrt{n}}
+$$
+Margin of error:
+
+$$
+margin = t * \frac{s}{\sqrt{n}}
+$$
+
+Confidence interval:
+$$
+CI = [\bar{x} - t * \frac{s}{\sqrt{n}}, \bar{x} + t * \frac{s}{\sqrt{n}}]
+$$
+
+Cohen's d: 
+$$
+Cohen's d = \frac{\bar{x_1} - \bar{x_2}}{\sqrt{(s^2_1 + s^2_2)/2}}
+$$
+
+# What we did
+
+- **looked at the data**: `str()`, finding missing data  
+- **wrangled the data**: `filter()`, `mutate() + case_when()`  
+- **summarized the data**: `summarize()`  
+- **checked for normally distributed data**: visually, used `stat_qq()` and `stat_qq_line()`  
+- **checked for equal variances**: `var.test()`  
+- **calculated a critical value**: `qt()`  
+- **did a t-test**: `t.test()`  
+- **calculated effect size**: `cohen.d()`  
+
+
+
+
+
+
+
+
+
+
+
