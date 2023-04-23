@@ -14,7 +14,7 @@ You will need the following packages:
 
 # Formulas to be comfortable with
 
-One-sample t-statistic:
+One-sample t-statistic:  
 
 $$
 t_s = \frac{\bar{x} - \mu}{s/\sqrt{n}}
